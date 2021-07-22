@@ -10,18 +10,19 @@
     font-size: 26px;
   }
   #sub1_1 > #main .container{
-    outline: 1px solid red;
+   /* outline: 1px solid red; */
   
   }
   #sub1_1 > #main aside {
     width: 250px;
-    outline: 1px solid red;
+    height: 500px;
+    /* outline: 1px solid red; */
     margin-right: auto;
   }
   
   #sub1_1 > #main article {
     width: 900px;
-    outline: 1px solid red;
+  /* outline: 1px solid red; */
   }
 
   #sub1_1 > #main aside h2 {
@@ -31,18 +32,31 @@
     padding-bottom: 30px;
     color: #fff;
   }
-  #sub1_1 > #main aside .subMenu > li {
-    background: #d7d7d7;
-  }
+ 
   #sub1_1 > #main aside .subMenu > li > a {
     transition: 0.4s;
   }
   #sub1_1 > #main aside .subMenu > li:hover > a {
-    background: #939a9e; 
+    background: #ccd8e0; 
     color: #fff;
   }
   #sub1_1 > #main aside .subMenu > li.active > a {
-    background: #939a9e; 
+    background: #ccd8e0; 
     color: #fff;  
     border-bottom: 1px solid #fff;
   }
+
+  #sub1_1 > #main aside .subMenu > li > a {
+    /* color: #fff; */
+    color: #898989;
+    /* background: #939a9e; */
+    background: #fff;
+    display: block;
+    height: 65px;
+    line-height: 50px;
+    padding-left: 1em;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+  }
+  

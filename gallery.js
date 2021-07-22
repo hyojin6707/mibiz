@@ -34,7 +34,7 @@ $(function(){
       $('.indicator li').removeClass('active');
       $(this).addClass('active');
     })
-  
+ 
   
        
   
