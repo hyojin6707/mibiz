@@ -34,12 +34,7 @@ $(function(){
       $('.indicator li').removeClass('active');
       $(this).addClass('active');
     })
-    // 인디케이터 버튼2 -> 두번째 배너
-    $('.indicator li').eq(1).click(function(){
-      changeGallery(1);
-      $('.indicator li').removeClass('active');
-      $(this).addClass('active');
-    })
+  
   
        
   
