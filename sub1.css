@@ -1,0 +1,48 @@
+/* sub1.css */
+
+#sub1_1 h2 {
+    font-size: 24px;
+}
+#sub1_1 h3 {
+    font-size: 30px;
+  }
+  #sub1_1 h4 {
+    font-size: 26px;
+  }
+  #sub1_1 > #main .container{
+    outline: 1px solid red;
+  
+  }
+  #sub1_1 > #main aside {
+    width: 250px;
+    outline: 1px solid red;
+    margin-right: auto;
+  }
+  
+  #sub1_1 > #main article {
+    width: 900px;
+    outline: 1px solid red;
+  }
+
+  #sub1_1 > #main aside h2 {
+    text-align: center;
+    background: #0071bb;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+  }
+  #sub1_1 > #main aside .subMenu > li {
+    background: #d7d7d7;
+  }
+  #sub1_1 > #main aside .subMenu > li > a {
+    transition: 0.4s;
+  }
+  #sub1_1 > #main aside .subMenu > li:hover > a {
+    background: #939a9e; 
+    color: #fff;
+  }
+  #sub1_1 > #main aside .subMenu > li.active > a {
+    background: #939a9e; 
+    color: #fff;  
+    border-bottom: 1px solid #fff;
+  }
